@@ -1,9 +1,18 @@
 .landing-container {
-  width: 100%;
+  width: auto;
   height: 90vh;
   border: 1px solid black;
   display: flex;
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-family: 'Cousine', monospace;
+  margin: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+  border: none;
+  cursor: url('../public/hand_isometric.svg'), auto;
+  transition-duration: 0.5s;
 }
 
 .left-container {
@@ -15,8 +24,6 @@
   grid-template-columns: repeat(1, 100%);
   grid-auto-flow: column;
 }
-
-
 
 .Right-container {
   flex: 35%;
@@ -32,11 +39,13 @@
   border: 1px solid black;
   width: 100%;
   height: 100%;
-  font-size: 13rem;
+  font-size: 10rem;
+  font-weight: bold;
   overflow: hidden;
   display: flex;
   align-items:center;
   justify-content:center;
+  transition-duration: 0.5s;
 }
 
 .Name {
@@ -50,11 +59,13 @@
   height: 100%;
   background-color: rgb(36, 36, 36);
   color: #d6d1cd;
-  font-size: 9rem;
+  font-size: 7rem;
   overflow: hidden;
   display: flex;
   align-items:center;
   justify-content:center;
+  transition-duration: 0.5s;
+
 }
 
 .Portfolio-container {
@@ -62,11 +73,13 @@
   color: rgb(36, 36, 36);
   width: 100%;
   height: 100%;
-  font-size: 15rem;
+  font-size: 10rem;
   overflow: hidden;
   display: flex;
   align-items:center;
   justify-content:center;
+  transition-duration: 0.5s;
+
 }
 
 .Resume-container {
@@ -79,6 +92,8 @@
   display: flex;
   align-items:center;
   justify-content:center;
+  transition-duration: 0.5s;
+
 } 
 
 .Contact-container {
@@ -86,11 +101,13 @@
   color: rgb(36, 36, 36);
   width: 100%;
   height: 100%;
-  font-size: 10rem;
+  font-size: 8rem;
   overflow: hidden;
   display: flex;
   align-items:center;
   justify-content:center;
+  transition-duration: 0.5s;
+
 }
 
 .Social-container {
@@ -98,21 +115,75 @@
   width: 100%;
   background-color: rgb(36, 36, 36);
   color: #d6d1cd;
-  font-size: 9rem;
+  font-size: 8rem;
   overflow: hidden;
   display: flex;
   align-items:center;
   justify-content:center;
+  transition-duration: 0.5s;
+
 }
+
+.Name-container:hover,
+.Portfolio-container:hover,
+.Resume-container:Hover,
+.Contact-container:hover {
+  background-color: rgb(36, 36, 36);
+  color: #d6d1cd
+}
+
+.Occupation-container:hover,
+.Social-container:hover {
+  background-color: #d6d1cd;
+  color: rgb(36, 36, 36)
+}
+
+.project-container {
+  background-color: rgb(36, 36, 36);
+  margin-top: 2rem;
+  width: auto;
+  min-height: 100vh;
+  padding: 2rem;
+  color: #d6d1cd
+}
+
+.Project-alone {
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+.Project-description {
+  font-family: 'Cousine', monospace;
+  padding: 2rem;
+  flex: 60%
+}
+
+.Project-img {
+  padding: 2rem;
+  flex: 40%;
+}
+
+.Project-title {
+  font-family: 'Cousine', monospace;
+  font-weight: 300;
+  font-size: 8rem
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media only screen and (max-width: 1700px) {
   .landing-container {
-    width: 100%;
+    width: auto;
     height: 90vh;
     border: 1px solid black;
     display: flex;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Cousine', monospace;
   }
-  .Name {
+  .Name-container {
     font-size: 10rem;
   }
   .Occupation-container {
@@ -131,14 +202,14 @@
     font-size: 8rem;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1220px) {
   .landing-container {
-    width: 100%;
+    width: auto;
     height: auto;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Cousine', monospace;
   }
   .left-container {
     flex: 50%;
@@ -155,20 +226,31 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 40% 40% 40%;
+    grid-template-rows: 35% 35% 3 0%;
     grid-template-columns: repeat(1, 100%);
     grid-auto-flow: column;
+  }
+  .Project-alone {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column !important;
+  }
+  .Project-title {
+    font-family: 'Cousine', monospace;
+    font-weight: 300;
+    font-size: 6rem
   }
 }
 @media only screen and (max-width: 900px) {
   .landing-container {
-    width: 100%;
+    width: auto;
     height: auto;
     border: 1px solid black;
     display: flex;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Cousine', monospace;
   }
-  .Name {
+  .Name-container {
     font-size: 8rem;
   }
   .Occupation-container {
@@ -186,15 +268,19 @@
   .Social-container {
     font-size: 6rem;
   }
+  .project-alone {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   .landing-container {
-    width: 100%;
+    width: auto;
     height: auto;
     border: 1px solid black;
     display: flex;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Cousine', monospace;
   }
   .left-container {
     flex: 50%;
@@ -205,11 +291,11 @@
     grid-template-columns: repeat(1, 100%);
     grid-auto-flow: column;
   }
-  .Name {
-    font-size: 6.5rem;
+  .Name-container {
+    font-size: 6rem;
   }
   .Occupation-container {
-    font-size: 5.5rem;
+    font-size: 5rem;
   }
   .Portfolio-container {
     font-size: 5rem;
@@ -222,5 +308,9 @@
   }
   .Social-container {
     font-size: 5rem;
+  }
+  .project-alone {
+    display: flex;
+    flex-direction: column;
   }
 }

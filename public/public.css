@@ -1,3 +1,13 @@
+html {
+    cursor: url('./hand_isometric.svg'), auto;
+}
+
+.root {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #d6d1cd
+    background-color: #d8d8d8da;
+    margin: 0
 }
