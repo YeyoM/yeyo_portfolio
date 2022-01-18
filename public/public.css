@@ -1,5 +1,6 @@
 html {
     cursor: url('./hand_isometric.svg'), auto;
+    scroll-behavior: smooth;
 }
 
 .root {

@@ -14,8 +14,17 @@ function App () {
             </div>
         </div>
         <div className="Right-container">
-          <div className="Resume-container">Resume</div>
-          <div className="Contact-container">Contact</div>
+          <div className="Resume-container">
+            <p className="Resume-title">Resume</p>
+            <p className="Resume-body">Based in Mexico</p>
+            <p className="Resume-body">Universidad Autónoma</p>
+            <p className="Resume-body">de Aguascalientes</p>
+            <p className="Resume-body">Class of 2026</p>
+          </div>
+          <div className="Contact-container">
+            <p className="Contact-title">Contact</p>
+            <p className="Contact-body">Send me an email</p> 
+          </div>
           <div className="Social-container">Social</div>
         </div>
       </div>
