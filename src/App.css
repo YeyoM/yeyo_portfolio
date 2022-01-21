@@ -254,6 +254,10 @@ img {
   height: auto;
 }
 
+.contact-form {
+  min-height: 100vh
+}
+
 @media only screen and (max-width: 1700px) {
   .landing-container {
     width: auto;

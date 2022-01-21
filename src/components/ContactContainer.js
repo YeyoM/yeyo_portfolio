@@ -1,9 +1,10 @@
 import '../App.css'
 
+
 const ContactContainer = () => {
   return (
-		<div className="contact-container">
-
+		<div className="contact-form">
+      <a name="contact"></a>
 		</div>
   )
 }
