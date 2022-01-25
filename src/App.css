@@ -208,18 +208,28 @@ a:hover {
 
 .Portfolio-container:active {
   background-color: rgb(36, 36, 36);
-  color: #d8d8d8da
+  color: #d8d8d8da;
 }
 
 .Occupation-container:hover,
 .Social-container:hover {
   background-color: #d8d8d8da;
-  color: rgb(36, 36, 36)
+  color: rgb(36, 36, 36);
+}
+
+.about-me-container {
+  background-color: rgb(36, 36, 36);
+  min-height: 90vh;
+  margin: 0;
+  border-bottom: 1px solid #d8d8d8da;
+  padding: 2rem;
+  color: #d8d8d8da;
+  font-family: 'Cousine', monospace;
 }
 
 .project-container {
   background-color: rgb(36, 36, 36);
-  margin-top: 2rem;
+  margin-top: 0;
   width: auto;
   min-height: 100vh;
   padding: 2rem;
@@ -318,7 +328,7 @@ img {
 @media only screen and (max-width: 1700px) {
   .landing-container {
     width: auto;
-    height: 90vh;
+    height: 95vh;
     border: 1px solid black;
     display: flex;
     font-family: 'Cousine', monospace;
@@ -394,14 +404,14 @@ img {
 @media only screen and (max-width: 1220px) {
   .landing-container {
     width: auto;
-    min-height: 150vh;
+    min-height: 200vh;
     height: auto;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
   }
   .left-container {
-    flex: 50%;
+    flex: 70%;
     width: 100%;
     height: 100%;
     display: grid;
@@ -411,7 +421,7 @@ img {
   }
   
   .Right-container {
-    flex: 50%;
+    flex: 30%;
     width: 100%;
     height: 100%;
     display: grid;
@@ -579,5 +589,23 @@ img {
   .project-alone {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-height: 820px) {
+  .Name-container {
+    font-size: 8rem;
+  }
+  .Occupation-title {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-height: 740px) {
+  .Portfolio-container {
+    font-size: 6rem
+  }
+  .Social-container {
+    font-size: 6rem;
   }
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-
 const BadNotification = ({ message }) => {
   if (message === null) {
     return null
