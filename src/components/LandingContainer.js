@@ -18,8 +18,8 @@ const LandingContainer = () => {
             </div>
           </div>
           <div className="Portfolio-container">
-            <a href="#portfolio" className="Portfolio-a">Portfolio</a>
-            </div>
+              <a href="#portfolio" className="Portfolio-a">Portfolio</a>
+          </div>
         </div>
         <div className="Right-container">
           <div className="Resume-container">
