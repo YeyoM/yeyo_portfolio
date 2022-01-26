@@ -394,6 +394,19 @@ img {
   }
 }
 
+@media only screen and (max-width: 1000px) {
+  .about-me-container {
+    padding: 4rem;
+  }
+  .about-title {
+    font-size: 7vw;
+  }
+  
+  .about-p {
+    font-size: 3vw
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .landing-container {
     width: auto;

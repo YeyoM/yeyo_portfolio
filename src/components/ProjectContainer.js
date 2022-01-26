@@ -1,6 +1,9 @@
 import '../App.css'
 
 const ProjectContainer = () => {
+
+	const route = '../../public/project.jpeg'
+		
   return (
 		<div className='project-container'>
 			<a name="portfolio"></a>
@@ -9,7 +12,7 @@ const ProjectContainer = () => {
 					<div className="Project-title">01 Project</div>
 					<p>This first project is one of my most recent one, this app shows you a random Kanye West’s quote, which you can also tweet. It is built with only React, and you can find the code in my GitHub. It makes requests to a REST API called kanye.rest. You can find my project <a href="https://kanye-west-quotes.herokuapp.com/">here</a></p></div>
 				<div className="Project-img">
-					<img src="../../public/project.png" alt="01 Project" />
+					<img src={route} alt="01 Project" />
 				</div>
 			</div>
 			<div className="Project-alone">
