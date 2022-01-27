@@ -8,7 +8,6 @@ import GoodNotification from './GoodNotification'
 const ContactContainer = () => {
 
   const formId = process.env.REACT_APP_FORM_ID
-  console.log(formId)
   const formSparkUrl = `https://submit-form.com/${formId}`
 
   const [newName, setNewName] = useState('')
