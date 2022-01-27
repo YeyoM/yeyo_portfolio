@@ -30,7 +30,7 @@ const ContactContainer = () => {
 
   const submitFormContact = async (event) => {
     event.preventDefault()
-    await postSubmission()
+    await postSubmission().catch(e => console.log(e))
   }
 
   const postSubmission = async () => {
