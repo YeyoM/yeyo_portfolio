@@ -1,4 +1,5 @@
 {
+  "homepage":"https://yeyom.github.io/yeyo_portfolio",
   "name": "yeyo_portfolio",
   "version": "0.1.0",
   "private": true,
@@ -38,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "3.2.3"
   }
 }
