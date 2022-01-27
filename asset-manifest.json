@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5720d5fc.css",
+    "main.js": "/static/js/main.25599135.js",
+    "static/media/hand_isometric.svg": "/static/media/hand_isometric.919345a3541e3aa14b1e.svg",
+    "index.html": "/index.html",
+    "main.5720d5fc.css.map": "/static/css/main.5720d5fc.css.map",
+    "main.25599135.js.map": "/static/js/main.25599135.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5720d5fc.css",
+    "static/js/main.25599135.js"
+  ]
+}
