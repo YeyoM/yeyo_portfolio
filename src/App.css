@@ -111,6 +111,7 @@
   justify-content:center;
   transition-duration: 0.5s;
   font-family: 'Space Grotesk', sans-serif;
+  background-color: rgb(255, 94, 0);
 } 
 
 .Resume-title {
@@ -203,18 +204,17 @@ a:hover {
 .Portfolio-container a:hover,
 .Resume-container:Hover,
 .Contact-container a:hover {
-  background-color: rgb(36, 36, 36);
-  color: #d8d8d8da
+  background-color: rgb(255, 94, 0);
+  text-decoration: line-through; 
 }
 
 .Portfolio-container:active {
-  background-color: rgb(36, 36, 36);
-  color: #d8d8d8da;
+  background-color: rgb(255, 94, 0);
 }
 
 .Occupation-container:hover,
 .Social-container:hover {
-  background-color: #d8d8d8da;
+  background-color: rgb(255, 94, 0);
   color: rgb(36, 36, 36);
 }
 
@@ -226,6 +226,7 @@ a:hover {
   padding: 4rem 12rem;
   color: #d8d8d8da;
   font-family: 'Cousine', monospace;
+  border: 2px solid rgb(255, 94, 0)
 }
 
 .about-title {
@@ -245,7 +246,8 @@ li {
   width: auto;
   min-height: 100vh;
   padding: 2rem;
-  color: #d8d8d8da
+  color: #d8d8d8da;
+  border: 2px solid rgb(255, 94, 0)
 }
 
 .Project-alone {
@@ -290,7 +292,7 @@ img {
 }
 
 .contact-form {
-  min-height: 100vh
+  min-height: 70vh
 }
 
 .form-container {
@@ -329,6 +331,7 @@ img {
   padding: 1.2rem 3rem;
   border: 2px solid black;
   transition-duration: 0.2s;
+  background-color:rgb(255, 94, 0);
 }
 
 .contact-button:hover {
@@ -350,7 +353,7 @@ img {
     width: 100%;
     height: 100%;
     display: grid;
-    min-height: 50vh;
+    min-height: 65vh;
     grid-template-rows: 40% 30% 30%;
     grid-template-columns: repeat(1, 100%);
     grid-auto-flow: column;
@@ -417,7 +420,7 @@ img {
     margin: 1rem;
   }
   .left-container {
-    min-height: 30vh;
+    min-height: 40vh;
     width: 100%;
     display: grid;
     grid-template-rows: 40% 35% 25%;
@@ -463,5 +466,20 @@ img {
   .contact-button {
     font-size: 4vw;
     padding: 1rem
+  }
+  .about-me-container {
+    padding: 2rem;
+  }
+  .about-p {
+    font-size: 1rem;
+  }
+  .Project-img {
+    padding: 1rem;
+  }
+  .form-container {
+    margin: 1rem;
+  }
+  .contact-button {
+    margin-top: 1rem;
   }
 }
