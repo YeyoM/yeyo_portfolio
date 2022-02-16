@@ -62,7 +62,7 @@
 }
 
 .Occupation-title {
-  font-size: 6.5vw
+  font-size: 6vw
 }
 
 .Contact-desc {
@@ -247,7 +247,8 @@ li {
   min-height: 100vh;
   padding: 2rem;
   color: #d8d8d8da;
-  border: 2px solid rgb(255, 94, 0)
+  border: 2px solid rgb(255, 94, 0);
+  margin-bottom: 2rem;
 }
 
 .Project-alone {
@@ -292,14 +293,18 @@ img {
 }
 
 .contact-form {
-  min-height: 70vh
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-container {
   border: 2px solid black;
   margin: 2rem;
   padding: 2rem;
-  font-family: 'Space Grotesk', sans-serif;;
+  font-family: 'Space Grotesk', sans-serif;
+  max-width: 1000px;
 }
 
 .form-title {
@@ -309,7 +314,7 @@ img {
 }
 
 .form-section {
-  padding: 1.5rem;
+  padding: 1rem 0rem;
   display: flex;
   flex-direction: column;
 }
@@ -332,12 +337,30 @@ img {
   border: 2px solid black;
   transition-duration: 0.2s;
   background-color:rgb(255, 94, 0);
+  margin-top: 1.5rem;
 }
 
 .contact-button:hover {
   cursor: url('../public/hand_isometric.svg'), auto;
   color: #d8d8d8da;
   background-color: rgba(36, 36, 36);
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  height: 20vh;
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+  margin-top: 2rem;
+  border-top: 2px solid rgb(255, 94, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 @media only screen and (max-width: 1220px) {

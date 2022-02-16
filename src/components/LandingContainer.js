@@ -3,6 +3,7 @@ import { faLinkedin, faTwitterSquare, faGithubSquare, faInstagramSquare} from '@
 import '../App.css'
 
 const LandingContainer = () => {
+
   return (
       <div className='landing-container'>
         <div className='left-container'>
@@ -11,7 +12,7 @@ const LandingContainer = () => {
           </div>
           <div className="Occupation-container">
             <div className="Occupation-title">
-              Software Engineer
+              Software Developer
             </div>
             <div className="Occupation-desc">
               Coding this website and a bunch of other things
@@ -27,7 +28,7 @@ const LandingContainer = () => {
             <p className="Resume-body">Based in Mexico</p>
             <p className="Resume-body">Universidad Autónoma</p>
             <p className="Resume-body">de Aguascalientes</p>
-            <p className="Resume-body">Class of 2026</p>
+            <a href="https://drive.google.com/file/d/1yOsLaB4MPsp3Hv9MaaolYa38JbcdhoYX/view?usp=sharing">Get my Resume Here</a>
           </div>
           <div className="Contact-container">
             <a className="Contact-body" href="#contact">

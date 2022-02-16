@@ -3,6 +3,7 @@ import LandingContainer from './components/LandingContainer'
 import ProjectContainer from './components/ProjectContainer'
 import ContactContainer from './components/ContactContainer'
 import AboutMeContainer from './components/AboutMeContainer'
+import Footer from './components/Footer'
 
 function App () {
 	return (
@@ -11,6 +12,7 @@ function App () {
 			<AboutMeContainer />
 			<ProjectContainer />
 			<ContactContainer />
+			<Footer />
 		</div>
 	)
 }
