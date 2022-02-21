@@ -28,7 +28,7 @@ const LandingContainer = () => {
             <p className="Resume-body">Based in Mexico</p>
             <p className="Resume-body">Universidad Autónoma</p>
             <p className="Resume-body">de Aguascalientes</p>
-            <a href="https://drive.google.com/file/d/1x4VNoV-PRWn4fBAlAIz_gFOsCg3bShYi/view?usp=sharing">Get my Resume Here</a>
+            <a href="https://drive.google.com/file/d/17ZzqhEVJnYNm1IvHvWR5uxRNuqVaH_wI/view?usp=sharing">Get my Resume Here</a>
           </div>
           <div className="Contact-container">
             <a className="Contact-body" href="#contact">
