@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/yeyo_portfolio/static/css/main.5ea0bbcc.css",
-    "main.js": "/yeyo_portfolio/static/js/main.6a18182d.js",
+    "main.js": "/yeyo_portfolio/static/js/main.eb2dc009.js",
     "static/media/01project.png": "/yeyo_portfolio/static/media/01project.6955be1614d82401a188.png",
     "static/media/02project.png": "/yeyo_portfolio/static/media/02project.39b59c79044ad97cef60.png",
     "static/media/hand_isometric.svg": "/yeyo_portfolio/static/media/hand_isometric.919345a3541e3aa14b1e.svg",
     "index.html": "/yeyo_portfolio/index.html",
     "main.5ea0bbcc.css.map": "/yeyo_portfolio/static/css/main.5ea0bbcc.css.map",
-    "main.6a18182d.js.map": "/yeyo_portfolio/static/js/main.6a18182d.js.map"
+    "main.eb2dc009.js.map": "/yeyo_portfolio/static/js/main.eb2dc009.js.map"
   },
   "entrypoints": [
     "static/css/main.5ea0bbcc.css",
-    "static/js/main.6a18182d.js"
+    "static/js/main.eb2dc009.js"
   ]
 }
