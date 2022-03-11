@@ -26,7 +26,7 @@ const ProjectContainer = () => {
 			<div className="Project-alone">
 				<div className="Project-description">
 					<div className="Project-title">03.Next-Events</div>
-					<p>The next one is a introduction to what is NextJS and how to create a very first project, in the code you will found things like the folder-routing, how to add react components to the pages and much more. Check it <a href="https://next-events-app-phi.vercel.app/">here</a>. Or found the code <a href="https://github.com/YeyoM/next_events_app">here</a></p></div>
+					<p>The next one is a introduction to what is NextJS and how to create a very first project, in the code you will found things like the folder-routing, how to add react components to the pages, static site generation and server side rendering! Check it <a href="https://next-events-app-phi.vercel.app/">here</a>. Or found the code <a href="https://github.com/YeyoM/next_events_app">here</a></p></div>
 				<div className="Project-img">
 					<img src={require('../images/03project.png')} alt="03 Project" />
 				</div>

@@ -436,7 +436,7 @@ img {
 @media only screen and (max-width: 600px) {
   .landing-container {
     width: auto;
-    min-height: 80vh;
+    min-height: 90vh;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
