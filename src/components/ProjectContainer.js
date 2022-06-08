@@ -9,7 +9,15 @@ const ProjectContainer = () => {
 			<a name="portfolio"></a>
 			<div className="Project-alone">
 				<div className="Project-description">
-					<div className="Project-title">01.YeQuotes</div>
+					<div className="Project-title">01.Blog</div>
+					<p>I created this blog to help people that are starting in the computer science field as well on building web apps. Also it helps me improving my skills. Check it <a href="https://next-blog-nu-wine.vercel.app/">here</a>. Or found the code <a href="https://github.com/YeyoM/next_blog">here</a></p></div>
+				<div className="Project-img">
+					<img src={require('../images/04project.png')} alt="03 Project" />
+				</div>
+			</div>
+			<div className="Project-alone">
+				<div className="Project-description">
+					<div className="Project-title">02.YeQuotes</div>
 					<p>This first project is one of my most recent one, this app shows you a random Kanye West’s quote, which you can also tweet. It is built with only React, and you can find the code in my GitHub. It makes requests to a REST API called kanye.rest. You can find my project <a href="https://yeyom.github.io/kanye_quotes/">here</a>. Check out my code <a href="https://github.com/YeyoM/kanye_quotes">here</a>.</p></div>
 				<div className="Project-img">
 					<img src={require('../images/01project.png')} alt="01 Project" />
@@ -17,15 +25,15 @@ const ProjectContainer = () => {
 			</div>
 			<div className="Project-alone">
 				<div className="Project-description">
-					<div className="Project-title">02.Optimave</div>
-					<p>This one right here, it is my most recent project made for a client. It works as a Landing page to know the product wich is a tool to boost your PC to get the maximum performance when playing games, it also features payments with stripe check-out system and a login and signup system. Check the WebApp <a href="https://optimave.herokuapp.com/">here</a> </p></div>
+					<div className="Project-title">03.Optimave</div>
+					<p>This one right here, it is my most recent project. It works as a Landing page to know the product wich is a tool to boost your PC to get the maximum performance when playing games, it also features payments with stripe check-out system and a login and signup system. Check the WebApp <a href="https://optimave.herokuapp.com/">here</a>. It is just an example web App.</p></div>
 				<div className="Project-img">
 					<img src={require('../images/02project.png')} alt="02 Project" />
 				</div>
 			</div>
 			<div className="Project-alone">
 				<div className="Project-description">
-					<div className="Project-title">03.Next-Events</div>
+					<div className="Project-title">04.Next-Events</div>
 					<p>The next one is a introduction to what is NextJS and how to create a very first project, in the code you will found things like the folder-routing, how to add react components to the pages, static site generation and server side rendering! Check it <a href="https://next-events-app-phi.vercel.app/">here</a>. Or found the code <a href="https://github.com/YeyoM/next_events_app">here</a></p></div>
 				<div className="Project-img">
 					<img src={require('../images/03project.png')} alt="03 Project" />
