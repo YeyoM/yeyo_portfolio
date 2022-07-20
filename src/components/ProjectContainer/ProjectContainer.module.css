@@ -1,0 +1,34 @@
+
+.projectContainer {
+  background-color: rgb(36, 36, 36);
+  margin-top: 0;
+  width: auto;
+  min-height: 100vh;
+  padding: 2rem;
+  color: #d8d8d8da;
+  border: 2px solid rgb(255, 94, 0);
+  margin-bottom: 2rem;
+}
+
+.projectAlone {
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+.projectDescription {
+  font-family: 'Cousine', monospace;
+  padding: 2vw;
+  flex: 60%
+}
+
+.projectImg {
+  padding: 2rem;
+  flex: 40%;
+}
+
+.projectTitle {
+  font-family: 'Cousine', monospace;
+  font-weight: 300;
+  font-size: 7.5vw;
+}

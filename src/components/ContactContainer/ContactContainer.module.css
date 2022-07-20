@@ -1,0 +1,54 @@
+
+.contactForm {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  border: 2px solid black;
+  margin: 2rem;
+  padding: 2rem;
+  font-family: 'Space Grotesk', sans-serif;
+  max-width: 1000px;
+}
+
+.formTitle {
+  font-size: 6.5vw;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.formSection {
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  font-size: 2vw;
+}
+
+.formInput {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.contactButton {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 200;
+  padding: 1.2rem 3rem;
+  border: 2px solid black;
+  transition-duration: 0.2s;
+  background-color:rgb(255, 94, 0);
+  margin-top: 1.5rem;
+}
+
+.contactButton:hover {
+  cursor: url('../../../public/hand_isometric.svg'), auto;
+  color: #d8d8d8da;
+  background-color: rgba(36, 36, 36);
+}

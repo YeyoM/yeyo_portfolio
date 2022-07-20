@@ -1,0 +1,18 @@
+.aboutMeContainer {
+  background-color: rgb(36, 36, 36);
+  min-height: 90vh;
+  margin: 0;
+  border-bottom: 1px solid #d8d8d8da;
+  padding: 4rem 12rem;
+  color: #d8d8d8da;
+  font-family: 'Cousine', monospace;
+  border: 2px solid rgb(255, 94, 0)
+}
+
+.aboutTitle {
+  font-size: 5.5vw;
+}
+
+.aboutP {
+  font-size: 1.3vw
+}

@@ -1,0 +1,6 @@
+.errorMessage {
+  border: solid 1px black;
+  padding: 1rem;
+  transition-duration: 0.5s;
+  background-color: rgba(255, 97, 97, 0.267);
+}

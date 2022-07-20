@@ -1,4 +1,5 @@
 import React from 'react'
+import classes from './GoodNotification.module.css'
 
 const GoodNotification = ({ message }) => {
   if (message === null) {
@@ -6,7 +7,7 @@ const GoodNotification = ({ message }) => {
   }
 
   return (
-    <div className="success-message">
+    <div className={successMessage}>
       {message}
     </div>
   )

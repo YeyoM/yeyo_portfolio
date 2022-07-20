@@ -1,9 +1,8 @@
-import '../App.css'
 import axios from 'axios'
 import { useState } from 'react'
-import BadNotification from './BadNotification'
-import GoodNotification from './GoodNotification'
-
+import BadNotification from '../Alerts/BadNotification.jsx'
+import GoodNotification from '../Alerts/GoodNotification.jsx'
+import classes from './ContactContainer.module.css'
 
 const ContactContainer = () => {
 
@@ -72,26 +71,26 @@ const ContactContainer = () => {
   }
 
   return (
-		<div className="contact-form">
+		<div className={classes.contactForm}>
       <a name="contact"></a>
-      <div className="form-container">
+      <div className={classes.formContainer}>
         <form onSubmit={submitFormContact}>
           <BadNotification message={newMessageError} />
           <GoodNotification message={newMessageSuccess} />
-          <p className="form-title">Send me an email</p>
-          <div className="form-section">
-            <label className="form-label">Your name</label>
-            <input type="text" placeholder="Your name here..." className="form-input" value={newName} onChange={handleNewName}/>
+          <p className={classes.formTitle}>Send me an email</p>
+          <div className={classes.formSection}>
+            <label className={classes.formLabel}>Your name</label>
+            <input type="text" placeholder="Your name here..." className={classes.formInput} value={newName} onChange={handleNewName}/>
           </div>
-          <div className="form-section">
-            <label className="form-label">Your email</label>
-            <input type="email" placeholder="Your email adress here..." className="form-input" value={newEmail} onChange={handleNewEmail}/>
+          <div className={classes.formSection}>
+            <label className={classes.formLabel}>Your email</label>
+            <input type="email" placeholder="Your email adress here..." className={classes.formInput} value={newEmail} onChange={handleNewEmail}/>
           </div>
-          <div className="form-section">
-            <label className="form-label">Your message</label>
-            <textarea type="text" placeholder="Your message here..." className="form-input" value={newMessage} onChange={handleNewMessage}/>
+          <div className={classes.formSection}>
+            <label className={classes.formLabel}>Your message</label>
+            <textarea type="text" placeholder="Your message here..." className={classes.formInput} value={newMessage} onChange={handleNewMessage}/>
           </div>
-          <button className="contact-button">
+          <button className={classes.contactButton}>
             Send it!
           </button>
         </form>

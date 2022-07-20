@@ -1,0 +1,6 @@
+.successMessage {
+  border: solid 1px black;
+  padding: 1rem;
+  transition-duration: 0.5s;
+  background-color: rgba(97, 255, 105, 0.267);
+}
