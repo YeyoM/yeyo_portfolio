@@ -18,8 +18,13 @@
 
 .projectDescription {
   font-family: 'Cousine', monospace;
-  padding: 2vw;
+  padding: 2rem;
   flex: 60%
+}
+
+.projectDescription p {
+  font-size: 1.5rem;
+  margin: 0
 }
 
 .projectImg {
@@ -30,5 +35,5 @@
 .projectTitle {
   font-family: 'Cousine', monospace;
   font-weight: 300;
-  font-size: 7.5vw;
+  font-size: 7rem;
 }
