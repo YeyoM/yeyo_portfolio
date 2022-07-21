@@ -53,3 +53,23 @@
   color: #d8d8d8da;
   background-color: rgba(36, 36, 36);
 }
+
+@media only screen and (max-width: 720px) {
+  .formContainer {
+    margin: 1rem;
+  }
+  .formSection {
+    padding: 1rem 0.2rem;
+  }
+  .formTitle {
+    font-size: 3rem;
+  }
+  .formLabel {
+    font-size: 1.5rem;
+  }
+  .contactButton {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0rem;
+  }
+}

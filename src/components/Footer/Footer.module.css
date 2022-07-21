@@ -14,3 +14,9 @@
   font-size: 1.5rem;
   font-family: 'Space Grotesk', sans-serif;
 }
+
+@media only screen and (max-width: 720px) {
+  .footer {
+    font-size: 1.2rem;
+  }
+}
