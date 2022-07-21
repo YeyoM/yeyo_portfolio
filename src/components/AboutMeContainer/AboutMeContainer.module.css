@@ -21,22 +21,43 @@
 
 .aboutTitle {
   font-size: 5rem;
-  max-width: 1200px;
   -ms-flex-align: start;
   margin: 4rem 0 2rem 0
 }
 
 .aboutP {
   font-size: 1.5rem;
-  max-width: 1200px;
 }
 
 .aboutTech {
   font-size: 1.5rem;
-  max-width: 1200px;
 }
 
 .aboutMeContainer li {
   font-size: 1.4rem;
   margin: 0 0 0 1rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  .aboutText {
+    max-width: 900px;
+  }
+  .aboutTitle {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .aboutTitle {
+    font-size: 2.5rem;
+  }
+  .aboutP {
+    font-size: 1.2rem;
+  }
+  .aboutTech {
+    font-size: 1.2rem;
+  }
+  .aboutMeContainer li {
+    font-size: 1rem;
+  }
 }
