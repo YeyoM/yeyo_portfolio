@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/yeyo_portfolio/static/css/main.f38db95a.css",
-    "main.js": "/yeyo_portfolio/static/js/main.97af3308.js",
+    "main.css": "/yeyo_portfolio/static/css/main.6723d63e.css",
+    "main.js": "/yeyo_portfolio/static/js/main.c47d175f.js",
     "static/media/03project.png": "/yeyo_portfolio/static/media/03project.134dff7834d6ad12f48b.png",
-    "static/media/04project.png": "/yeyo_portfolio/static/media/04project.7235528b6d3ab44ff3d2.png",
+    "static/media/04project.png": "/yeyo_portfolio/static/media/04project.dbfdc056637a8db90195.png",
     "static/media/01project.png": "/yeyo_portfolio/static/media/01project.4c2b8f113a6fad5a753b.png",
-    "static/media/02project.png": "/yeyo_portfolio/static/media/02project.a73a67740169f8d61c87.png",
     "static/media/hand_isometric.svg": "/yeyo_portfolio/static/media/hand_isometric.81c28cedc1534cdca047.svg",
     "index.html": "/yeyo_portfolio/index.html",
-    "main.f38db95a.css.map": "/yeyo_portfolio/static/css/main.f38db95a.css.map",
-    "main.97af3308.js.map": "/yeyo_portfolio/static/js/main.97af3308.js.map"
+    "main.6723d63e.css.map": "/yeyo_portfolio/static/css/main.6723d63e.css.map",
+    "main.c47d175f.js.map": "/yeyo_portfolio/static/js/main.c47d175f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f38db95a.css",
-    "static/js/main.97af3308.js"
+    "static/css/main.6723d63e.css",
+    "static/js/main.c47d175f.js"
   ]
 }
