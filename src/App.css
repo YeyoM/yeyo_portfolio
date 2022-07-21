@@ -65,16 +65,7 @@ img {
 }
 
 @media only screen and (max-width: 1000px) {
-  .about-me-container {
-    padding: 4rem;
-  }
-  .about-title {
-    font-size: 7vw;
-  }
-  
-  .about-p {
-    font-size: 3vw
-  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -133,12 +124,6 @@ img {
   .contact-button {
     font-size: 4vw;
     padding: 1rem
-  }
-  .about-me-container {
-    padding: 2rem;
-  }
-  .about-p {
-    font-size: 1rem;
   }
   .Project-img {
     padding: 1rem;

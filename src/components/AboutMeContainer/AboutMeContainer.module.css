@@ -3,21 +3,40 @@
   min-height: 90vh;
   margin: 0;
   border-bottom: 1px solid #d8d8d8da;
-  padding: 3rem 12rem;
+  padding: 3rem 2rem;
   color: #d8d8d8da;
   font-family: 'Cousine', monospace;
-  border: 2px solid rgb(255, 94, 0)
+  border: 2px solid rgb(255, 94, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutText {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .aboutTitle {
   font-size: 5rem;
+  max-width: 1200px;
+  -ms-flex-align: start;
+  margin: 4rem 0 2rem 0
 }
 
 .aboutP {
-  font-size: 1.5rem
+  font-size: 1.5rem;
+  max-width: 1200px;
+}
+
+.aboutTech {
+  font-size: 1.5rem;
+  max-width: 1200px;
 }
 
 .aboutMeContainer li {
-  font-size: 1.5rem;
-  margin: 0 0 0 1rem
+  font-size: 1.4rem;
+  margin: 0 0 0 1rem;
 }
