@@ -11,3 +11,7 @@ html {
 ::selection { 
     background-color: rgb(255, 94, 0);
 }
+
+body {
+    margin: 0;
+}
