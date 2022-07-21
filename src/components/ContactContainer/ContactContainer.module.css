@@ -65,7 +65,10 @@
     font-size: 3rem;
   }
   .formLabel {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .formInput {
+    font-size: 1rem;
   }
   .contactButton {
     font-size: 1.2rem;
