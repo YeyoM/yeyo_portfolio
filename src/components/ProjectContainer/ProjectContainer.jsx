@@ -9,6 +9,14 @@ const ProjectContainer = () => {
 			<a name="portfolio"></a>
 			<div className={classes.projectAlone}>
 				<div className={classes.projectDescription}>
+					<h3 className={classes.projectTitle}>Lofi-Terminal</h3>
+					<p>This lofi player will make every developer feel like home, use it for those long coding sessions, built with NextJs and react-terminal. Check it <a href="https://lofi-terminal.vercel.app/">here</a>. And found the code <a href="https://github.com/YeyoM/lofi_code">here</a></p></div>
+				<div className={classes.projectImg}>
+					<img src={require('../../images/05project.png')} alt="05 Project" />
+				</div>
+			</div>
+			<div className={classes.projectAlone}>
+				<div className={classes.projectDescription}>
 					<h3 className={classes.projectTitle}>Blog</h3>
 					<p>I created this blog to help people that are starting in the computer science field as well on building web apps. Also it helps me improving my skills. Check it <a href="https://next-blog-nu-wine.vercel.app/">here</a>. Or found the code <a href="https://github.com/YeyoM/next_blog">here</a></p></div>
 				<div className={classes.projectImg}>
