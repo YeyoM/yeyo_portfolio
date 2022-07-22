@@ -26,7 +26,7 @@ const ProjectContainer = () => {
 			<div className={classes.projectAlone}>
 				<div className={classes.projectDescription}>
 					<h3 className={classes.projectTitle}>YeQuotes</h3>
-					<p>This first project is one of my most recent one, this app shows you a random Kanye West’s quote, which you can also tweet. It is built with only React, and you can find the code in my GitHub. It makes requests to a REST API called kanye.rest. You can find my project <a href="https://yeyom.github.io/kanye_quotes/">here</a>. Check out my code <a href="https://github.com/YeyoM/kanye_quotes">here</a>.</p></div>
+					<p>This project is one of my most recent one, this app shows you a random Kanye West’s quote, which you can also tweet. It is built with only React, and you can find the code in my GitHub. It makes requests to a REST API called kanye.rest. You can find my project <a href="https://yeyom.github.io/kanye_quotes/">here</a>. Check out my code <a href="https://github.com/YeyoM/kanye_quotes">here</a>.</p></div>
 				<div className={classes.projectImg}>
 					<img src={require('../../images/01project.png')} alt="02 Project" />
 				</div>
