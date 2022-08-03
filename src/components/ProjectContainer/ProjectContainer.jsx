@@ -17,6 +17,14 @@ const ProjectContainer = () => {
 			</div>
 			<div className={classes.projectAlone}>
 				<div className={classes.projectDescription}>
+					<h3 className={classes.projectTitle}>Minimal Markdown Editor</h3>
+					<p>Use it to write your markdown and see it rendered in real time. Perfect for writing about your projects or writing blog posts. Check it <a href="https://minimal-md-editor.vercel.app/">here</a>. And found the code <a href="https://github.com/YeyoM/lofi_code">here</a></p></div>
+				<div className={classes.projectImg}>
+					<img src={require('../../images/06project.png')} alt="06 Project" />
+				</div>
+			</div>
+			<div className={classes.projectAlone}>
+				<div className={classes.projectDescription}>
 					<h3 className={classes.projectTitle}>Blog</h3>
 					<p>I created this blog to help people that are starting in the computer science field as well on building web apps. Also it helps me improving my skills. Check it <a href="https://next-blog-nu-wine.vercel.app/">here</a>. Or found the code <a href="https://github.com/YeyoM/next_blog">here</a></p></div>
 				<div className={classes.projectImg}>
