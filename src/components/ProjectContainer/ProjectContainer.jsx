@@ -9,6 +9,14 @@ const ProjectContainer = () => {
 			<a name="portfolio"></a>
 			<div className={classes.projectAlone}>
 				<div className={classes.projectDescription}>
+					<h3 className={classes.projectTitle}>Cocktail Please!</h3>
+					<p>Do you love to try out new Cocktails? This is the perfect app for you. It will recommend you a random cocktail every week. Check it <a href="https://cocktail-please.vercel.app/">here</a>. And found the code <a href="https://github.com/YeyoM/cocktail-please">here</a></p></div>
+				<div className={classes.projectImg}>
+					<img src={require('../../images/07project.jpeg')} alt="07 Project" />
+				</div>
+			</div>
+			<div className={classes.projectAlone}>
+				<div className={classes.projectDescription}>
 					<h3 className={classes.projectTitle}>Lofi-Terminal</h3>
 					<p>This lofi player will make every developer feel like home, use it for those long coding sessions, built with NextJs and react-terminal. Check it <a href="https://lofi-terminal.vercel.app/">here</a>. And found the code <a href="https://github.com/YeyoM/lofi_code">here</a></p></div>
 				<div className={classes.projectImg}>
@@ -18,7 +26,7 @@ const ProjectContainer = () => {
 			<div className={classes.projectAlone}>
 				<div className={classes.projectDescription}>
 					<h3 className={classes.projectTitle}>Minimal Markdown Editor</h3>
-					<p>Use it to write your markdown and see it rendered in real time. Perfect for writing about your projects or writing blog posts. Check it <a href="https://minimal-md-editor.vercel.app/">here</a>. And found the code <a href="https://github.com/YeyoM/lofi_code">here</a></p></div>
+					<p>Use it to write your markdown and see it rendered in real time. Perfect for writing about your projects or writing blog posts. Check it <a href="https://minimal-md-editor.vercel.app/">here</a>. And found the code <a href="https://github.com/YeyoM/markdown-editor">here</a></p></div>
 				<div className={classes.projectImg}>
 					<img src={require('../../images/06project.png')} alt="06 Project" />
 				</div>
