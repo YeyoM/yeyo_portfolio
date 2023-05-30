@@ -5,8 +5,9 @@ const AboutMeContainer = () => {
     <div className={classes.aboutMeContainer}>
       <div className={classes.aboutText}>
         <p className={classes.aboutTitle}>Hey there! </p>
-          <p className={classes.aboutP}>My name is Diego and I’m a software engineer student focused on web development. I started coding back in 2019 when I was in high school. I’m currently coursing 2nd semester in college. I’m studying Computer Science and my favorite course is “Computational Structures” where I master my code abilities with C++.</p>
-          <p className={classes.aboutP}>By now, I’m looking for my first Internship or my first approach with the IT work field. My main tech core is based mostly in JavaScript and all around with web development and I’m passionate about building great and excellent digital products that live on the internet.</p>
+          <p className={classes.aboutP}>I'm Diego Moreno, a computer science student at Universidad Autónoma de Aguascalientes, Mex. I have a strong passion for software engineering and all the exciting aspects that come with it.</p>
+          <p className={classes.aboutP}>Throughout my academic journey, I have developed a keen interest in frontend development and ensuring websites are reliable and accessible for all users.</p>
+          <p className={classes.aboutP}>In addition to my technical skills, I value collaboration and effective communication within development teams. I believe in the power of teamwork and appreciate the diverse perspectives that each team member brings to the table.</p>
           <p className={classes.aboutP}>Apart from coding, you will normally find me playing basketball or maybe playing guitar, who knows? </p>
         <p className={classes.aboutTech}>Technologies I've used in recent projects:</p>
         <ul>
